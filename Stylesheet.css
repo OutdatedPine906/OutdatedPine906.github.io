@@ -1,0 +1,74 @@
+html {
+	padding: 0;
+}
+body{
+	background-image:url("BGimage.jpg");
+	text-align: center;
+	font-style: Verdana;
+	height: 100%;
+	width: 100%;
+	font-size: 200%;
+}
+div.nav-container{
+	padding:10px;
+	margin:0;
+	background-color:#212121;
+	border:5px solid #000000;
+	width: 100%;
+}
+ul{
+	padding:5px 10px;
+	margin:0;
+	display:inline-block;
+}
+li{
+	padding:5px 10px;
+	display:inline-block;
+	background-color:#404040;
+	border:2px solid #303030;
+	float:left;
+}
+li.active{
+	background-color: #000000;
+	color:#FFFFFF;
+}
+li a{
+	color:#FFFFFF;
+}
+h1.header{
+	color:#786DFF;
+	margin:0;
+	padding:5px 10px;
+}
+.MyPannel{
+	padding:5px;
+	margin:0;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	width:100%;
+}
+.heading{
+	padding:50px 100px;
+	border:5px solid #000000;
+	color:#786DFF;
+}
+.body{
+	padding:50px 100px;
+	border:5px solid #000000;
+	color:#786DFF;
+}
+.login{
+	padding:50px 100px;
+	border:5px solid #333;
+	color:#786DFF;
+}
+button{
+	display: inline;
+	padding:5px 10px;
+}
+footer{
+	padding:5px 10px;
+	margin:0;
+	width:100%;
+	color:#786DFF;
+}
